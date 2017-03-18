@@ -1,0 +1,38 @@
+<div id="container">
+  <h1>Simple Slider ({{simpleSlider.onUpdate?.from}})</h1>
+  <ion-range-slider [min]="min" [max]="max" (onChange)="update(simpleSlider, $event)"></ion-range-slider>
+
+  <h1>Advanced Slider ({{advancedSlider.onUpdate?.from}} - {{advancedSlider.onUpdate?.to}})</h1>
+  <p><button (click)="setAdvancedSliderTo(20,80)">Update Slider to 20 - 80</button></p>
+  <ion-range-slider #advancedSliderElement
+          type="double"
+          min="0"
+          max="100"
+          from="28"
+          from_min="10"
+          from_max="30"
+          from_shadow="true"
+          to="40"
+          to_min="40"
+          to_max="90"
+          to_shadow="true"
+          grid="true"
+          grid_num="10"
+          prefix="Weight: "
+          postfix=" million pounds"
+          decorate_both="false"
+          (onUpdate)="update(advancedSlider, $event)"
+          (onChange)="update(advancedSlider, $event)"
+          (onFinish)="finish(advancedSlider, $event)"></ion-range-slider>
+  <div class="flex-container">
+    <div>
+      <h2>onUpdate</h2>
+      <pre>{{advancedSlider.onUpdate | json}}</pre>
+    </div>
+    
+    <div>
+      <h2>onFinish</h2>
+      <pre>{{advancedSlider.onFinish | json}}</pre>
+    </div>
+  </div>
+</div>
