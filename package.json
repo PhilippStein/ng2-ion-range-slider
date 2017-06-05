@@ -34,7 +34,7 @@
     "typescript": "2.0.9"
   },
   "dependencies": {
-    "@angular/core": "^2.4.4",
+    "@angular/core": ">=2.4.4",
     "@types/jquery": "^2.0.40",
     "@types/node": "~6.0.60",
     "ion-rangeslider": "2.1.6",
