@@ -96,7 +96,7 @@ export class IonRangeSliderComponent implements OnChanges{
 
     private initSlider() {
         let that = this;
-        jQuery(this.inputElem).ionRangeSlider({
+        (<any>jQuery(this.inputElem)).ionRangeSlider({
             min: that.min,
             max: that.max,
             from: that.from,
@@ -172,7 +172,7 @@ export class IonRangeSliderComponent implements OnChanges{
         this.to_percent = data.to_percent;
         this.to_value = data.to_value;
     }
-    
+
     private buildCallback(): IonRangeSliderCallback {
         let callback = new IonRangeSliderCallback();
         callback.min = this.min;
