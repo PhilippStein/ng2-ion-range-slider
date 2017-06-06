@@ -36,9 +36,6 @@
   "dependencies": {
     "@angular/core": ">=2.4.4",
     "@types/jquery": "^2.0.40",
-    "ion-rangeslider": "^2.1.6",
-    "@types/node": "~6.0.60",
-    "rxjs": "^5.4.0",
-    "zone.js": "^0.7.8"
+    "ion-rangeslider": "^2.1.6"
   }
 }

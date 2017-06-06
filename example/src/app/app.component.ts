@@ -13,8 +13,8 @@ export class AppComponent {
   min: number = 1;
   max: number = 10;
 
-  simpleSlider = {name: "Simple Slider"};
-  advancedSlider = {name: "Advanced Slider"};
+  simpleSlider = {name: "Simple Slider", onUpdate: undefined, onFinish: undefined};
+  advancedSlider = {name: "Advanced Slider", onUpdate: undefined, onFinish: undefined};
 
   update(slider, event) {
     console.log("Slider updated: " + slider.name);
