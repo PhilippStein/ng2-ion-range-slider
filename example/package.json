@@ -20,7 +20,7 @@
     "core-js": "^2.4.1",
     "rxjs": "^5.3.0",
     "zone.js": "^0.8.9",
-    "ng2-ion-range-slider": "^1.0.333"
+    "ng2-ion-range-slider": "^1.0.3"
   },
   "devDependencies": {
     "@angular/cli": "1.0.1",
