@@ -86,7 +86,7 @@ export class IonRangeSliderComponent implements OnChanges{
         jQuery(this.inputElem).data("ionRangeSlider").update(data);
     }
 
-    restore() {
+    reset() {
         jQuery(this.inputElem).data("ionRangeSlider").reset()
     }
 
