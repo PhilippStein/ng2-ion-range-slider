@@ -33,8 +33,10 @@
     "@types/core-js": "^0.9.41",
     "typescript": "2.0.9"
   },
+  "peerDependencies": {
+    "@angular/core": ">=2.4.4"
+  },
   "dependencies": {
-    "@angular/core": ">=2.4.4",
     "@types/jquery": "^2.0.40",
     "ion-rangeslider": "^2.1.6"
   }
