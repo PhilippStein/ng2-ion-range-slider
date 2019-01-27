@@ -1,2 +1,2 @@
-export * from './lib/ion-range-slider.module'
-export * from './lib/ion-range-slider.component'
+export * from './src/ion-range-slider.module'
+export * from './src/ion-range-slider.component'
