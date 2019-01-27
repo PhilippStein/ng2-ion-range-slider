@@ -1,7 +1,7 @@
 {
   "name": "ng2-ion-range-slider",
   "version": "2.0.0",
-  "description": "Ion Range Slider for AngularJS 2",
+  "description": "Ion Range Slider for Angular",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
@@ -14,7 +14,6 @@
   },
   "keywords": [
     "Angular",
-    "2",
     "ion",
     "range",
     "slider"
@@ -38,6 +37,6 @@
   },
   "dependencies": {
     "@types/jquery": "^2.0.40",
-    "ion-rangeslider": "^2.1.6"
+    "ion-rangeslider": "^2.3.0"
   }
 }
