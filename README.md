@@ -1,5 +1,5 @@
 ## ng2-ion-range-slider
-[Ion Range Slider](https://github.com/IonDen/ion.rangeSlider) now optimized for easy use as an importable Angular 2 Module and installable using npm.
+[Ion Range Slider](https://github.com/IonDen/ion.rangeSlider) now optimized for easy use as an importable Angular Module and installable using npm.
 
 ### Demos and Sample Usage
 
@@ -26,10 +26,10 @@ If you use angular-cli, add ``jquery`` and ``ion-range-slider`` to the scripts s
     {
       ...
       "scripts": [
-            "../node_modules/jquery/dist/jquery.min.js", 
+            "../node_modules/jquery/dist/jquery.min.js",
             "../node_modules/ion-rangeslider/js/ion.rangeSlider.min.js"
       ],
-      ...   
+      ...
 ```
 
 Also add the ion-range-slider style and skin css to the styles section in your ``.angular-cli.json``
@@ -40,10 +40,9 @@ Also add the ion-range-slider style and skin css to the styles section in your `
     {
       ...
       "styles": [
-              "../node_modules/ion-rangeslider/css/ion.rangeSlider.css",
-              "../node_modules/ion-rangeslider/css/ion.rangeSlider.skinFlat.css"
+              "../node_modules/ion-rangeslider/css/ion.rangeSlider.min.css"
       ],
-      ...   
+      ...
 ```
 
 
