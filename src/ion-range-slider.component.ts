@@ -16,6 +16,7 @@ export class IonRangeSliderComponent implements OnChanges{
 
     @Input() type: any;
     @Input() step: any;
+    @Input() skin: any;
     @Input() min_interval: any;
     @Input() max_interval: any;
     @Input() drag_interval: any;
@@ -104,6 +105,7 @@ export class IonRangeSliderComponent implements OnChanges{
 
             type: that.type,
             step: that.step,
+            skin: that.skin,
             min_interval: that.min_interval,
             max_interval: that.max_interval,
             drag_interval: that.drag_interval,
